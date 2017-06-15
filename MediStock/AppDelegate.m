@@ -7,15 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    DataManager * manager_data;
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    manager_data = [[DataManager alloc] initWithRealmName:nil];
+    ViewController* vc = [[ViewController alloc] initWithDataManager:manager_data];
+    UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    nc.navigationBar.translucent = false;
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

@@ -10,10 +10,18 @@
 		04FE11C31EEFFA7100E5D837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11C21EEFFA7100E5D837 /* main.m */; };
 		04FE11C61EEFFA7100E5D837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11C51EEFFA7100E5D837 /* AppDelegate.m */; };
 		04FE11C91EEFFA7100E5D837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11C81EEFFA7100E5D837 /* ViewController.m */; };
-		04FE11CC1EEFFA7100E5D837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE11CA1EEFFA7100E5D837 /* Main.storyboard */; };
 		04FE11CE1EEFFA7100E5D837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE11CD1EEFFA7100E5D837 /* Assets.xcassets */; };
-		04FE11D11EEFFA7100E5D837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE11CF1EEFFA7100E5D837 /* LaunchScreen.storyboard */; };
 		04FE11DC1EEFFA7100E5D837 /* MediStockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11DB1EEFFA7100E5D837 /* MediStockTests.m */; };
+		04FE11E71EEFFA9B00E5D837 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FE11E61EEFFA9B00E5D837 /* LaunchScreen.xib */; };
+		04FE11EA1EF008EF00E5D837 /* DatabaseObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11E91EF008EF00E5D837 /* DatabaseObjects.m */; };
+		04FE11ED1EF17D3900E5D837 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11EC1EF17D3900E5D837 /* DataManager.m */; };
+		04FE11F21EF1C47E00E5D837 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11F11EF1C47E00E5D837 /* UIView+Frame.m */; };
+		04FE11F81EF1CF2800E5D837 /* NSObject+DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11F71EF1CF2800E5D837 /* NSObject+DataManager.m */; };
+		04FE11FB1EF2660E00E5D837 /* AddClinicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE11FA1EF2660E00E5D837 /* AddClinicViewController.m */; };
+		04FE12011EF26B3B00E5D837 /* UIViewController+ViewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE12001EF26B3B00E5D837 /* UIViewController+ViewSize.m */; };
+		04FE12051EF2730B00E5D837 /* ClinicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE12041EF2730B00E5D837 /* ClinicViewController.m */; };
+		6B5297DDECB37622CC2D6D60 /* libPods-MediStock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FBCA8A675E960F8E110C39 /* libPods-MediStock.a */; };
+		FFD2A0E564B255D28BDD8FCE /* libPods-MediStockTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2B4EDA6E681CDDFED79ADC /* libPods-MediStockTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +41,33 @@
 		04FE11C51EEFFA7100E5D837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04FE11C71EEFFA7100E5D837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04FE11C81EEFFA7100E5D837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04FE11CB1EEFFA7100E5D837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FE11CD1EEFFA7100E5D837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04FE11D01EEFFA7100E5D837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FE11D21EEFFA7100E5D837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FE11D71EEFFA7100E5D837 /* MediStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE11DB1EEFFA7100E5D837 /* MediStockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediStockTests.m; sourceTree = "<group>"; };
 		04FE11DD1EEFFA7100E5D837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FE11E61EEFFA9B00E5D837 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		04FE11E81EF008EF00E5D837 /* DatabaseObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseObjects.h; sourceTree = "<group>"; };
+		04FE11E91EF008EF00E5D837 /* DatabaseObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseObjects.m; sourceTree = "<group>"; };
+		04FE11EB1EF17D3900E5D837 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		04FE11EC1EF17D3900E5D837 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		04FE11F01EF1C47E00E5D837 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		04FE11F11EF1C47E00E5D837 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		04FE11F41EF1CCFE00E5D837 /* MediStockPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediStockPrefixHeader.pch; sourceTree = "<group>"; };
+		04FE11F61EF1CF2800E5D837 /* NSObject+DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataManager.h"; sourceTree = "<group>"; };
+		04FE11F71EF1CF2800E5D837 /* NSObject+DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataManager.m"; sourceTree = "<group>"; };
+		04FE11F91EF2660E00E5D837 /* AddClinicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClinicViewController.h; sourceTree = "<group>"; };
+		04FE11FA1EF2660E00E5D837 /* AddClinicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClinicViewController.m; sourceTree = "<group>"; };
+		04FE11FF1EF26B3B00E5D837 /* UIViewController+ViewSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewSize.h"; sourceTree = "<group>"; };
+		04FE12001EF26B3B00E5D837 /* UIViewController+ViewSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewSize.m"; sourceTree = "<group>"; };
+		04FE12031EF2730B00E5D837 /* ClinicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicViewController.h; sourceTree = "<group>"; };
+		04FE12041EF2730B00E5D837 /* ClinicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicViewController.m; sourceTree = "<group>"; };
+		19FBCA8A675E960F8E110C39 /* libPods-MediStock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediStock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78B3FBACFA4B9E43945EDD /* Pods-MediStock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediStock.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediStock/Pods-MediStock.release.xcconfig"; sourceTree = "<group>"; };
+		7D2B4EDA6E681CDDFED79ADC /* libPods-MediStockTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediStockTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E107930D6D9D3847B254AF /* Pods-MediStockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediStockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediStockTests/Pods-MediStockTests.release.xcconfig"; sourceTree = "<group>"; };
+		D87B06CDD6751D6E1E512517 /* Pods-MediStockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediStockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediStockTests/Pods-MediStockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAB22C7E226BAC27678E372 /* Pods-MediStock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediStock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediStock/Pods-MediStock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5297DDECB37622CC2D6D60 /* libPods-MediStock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD2A0E564B255D28BDD8FCE /* libPods-MediStockTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +96,8 @@
 				04FE11C01EEFFA7100E5D837 /* MediStock */,
 				04FE11DA1EEFFA7100E5D837 /* MediStockTests */,
 				04FE11BF1EEFFA7100E5D837 /* Products */,
+				A084EAF598134F13B2E1B90C /* Pods */,
+				2230FA9780E9347EBB312932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +113,21 @@
 		04FE11C01EEFFA7100E5D837 /* MediStock */ = {
 			isa = PBXGroup;
 			children = (
+				04FE11F31EF1CC7100E5D837 /* Precompiled */,
+				04FE11EE1EF1C44800E5D837 /* Categories */,
 				04FE11C41EEFFA7100E5D837 /* AppDelegate.h */,
 				04FE11C51EEFFA7100E5D837 /* AppDelegate.m */,
-				04FE11C71EEFFA7100E5D837 /* ViewController.h */,
-				04FE11C81EEFFA7100E5D837 /* ViewController.m */,
-				04FE11CA1EEFFA7100E5D837 /* Main.storyboard */,
+				04FE12021EF272ED00E5D837 /* ClinicDetail */,
+				04FE11FD1EF2663300E5D837 /* AddClinic */,
+				04FE11FC1EF2661900E5D837 /* Clinics */,
 				04FE11CD1EEFFA7100E5D837 /* Assets.xcassets */,
-				04FE11CF1EEFFA7100E5D837 /* LaunchScreen.storyboard */,
 				04FE11D21EEFFA7100E5D837 /* Info.plist */,
 				04FE11C11EEFFA7100E5D837 /* Supporting Files */,
+				04FE11E61EEFFA9B00E5D837 /* LaunchScreen.xib */,
+				04FE11E81EF008EF00E5D837 /* DatabaseObjects.h */,
+				04FE11E91EF008EF00E5D837 /* DatabaseObjects.m */,
+				04FE11EB1EF17D3900E5D837 /* DataManager.h */,
+				04FE11EC1EF17D3900E5D837 /* DataManager.m */,
 			);
 			path = MediStock;
 			sourceTree = "<group>";
@@ -111,6 +149,98 @@
 			path = MediStockTests;
 			sourceTree = "<group>";
 		};
+		04FE11EE1EF1C44800E5D837 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11F51EF1CEFA00E5D837 /* NSObject */,
+				04FE11EF1EF1C45800E5D837 /* UIView */,
+				04FE11FE1EF2698D00E5D837 /* UIViewController */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		04FE11EF1EF1C45800E5D837 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11F01EF1C47E00E5D837 /* UIView+Frame.h */,
+				04FE11F11EF1C47E00E5D837 /* UIView+Frame.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		04FE11F31EF1CC7100E5D837 /* Precompiled */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11F41EF1CCFE00E5D837 /* MediStockPrefixHeader.pch */,
+			);
+			name = Precompiled;
+			sourceTree = "<group>";
+		};
+		04FE11F51EF1CEFA00E5D837 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11F61EF1CF2800E5D837 /* NSObject+DataManager.h */,
+				04FE11F71EF1CF2800E5D837 /* NSObject+DataManager.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		04FE11FC1EF2661900E5D837 /* Clinics */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11C71EEFFA7100E5D837 /* ViewController.h */,
+				04FE11C81EEFFA7100E5D837 /* ViewController.m */,
+			);
+			name = Clinics;
+			sourceTree = "<group>";
+		};
+		04FE11FD1EF2663300E5D837 /* AddClinic */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11F91EF2660E00E5D837 /* AddClinicViewController.h */,
+				04FE11FA1EF2660E00E5D837 /* AddClinicViewController.m */,
+			);
+			name = AddClinic;
+			sourceTree = "<group>";
+		};
+		04FE11FE1EF2698D00E5D837 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04FE11FF1EF26B3B00E5D837 /* UIViewController+ViewSize.h */,
+				04FE12001EF26B3B00E5D837 /* UIViewController+ViewSize.m */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		04FE12021EF272ED00E5D837 /* ClinicDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04FE12031EF2730B00E5D837 /* ClinicViewController.h */,
+				04FE12041EF2730B00E5D837 /* ClinicViewController.m */,
+			);
+			name = ClinicDetail;
+			sourceTree = "<group>";
+		};
+		2230FA9780E9347EBB312932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19FBCA8A675E960F8E110C39 /* libPods-MediStock.a */,
+				7D2B4EDA6E681CDDFED79ADC /* libPods-MediStockTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A084EAF598134F13B2E1B90C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB22C7E226BAC27678E372 /* Pods-MediStock.debug.xcconfig */,
+				6D78B3FBACFA4B9E43945EDD /* Pods-MediStock.release.xcconfig */,
+				D87B06CDD6751D6E1E512517 /* Pods-MediStockTests.debug.xcconfig */,
+				85E107930D6D9D3847B254AF /* Pods-MediStockTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FE11E01EEFFA7100E5D837 /* Build configuration list for PBXNativeTarget "MediStock" */;
 			buildPhases = (
+				BC2BD6A6C0B34E5E8C0E8081 /* [CP] Check Pods Manifest.lock */,
 				04FE11BA1EEFFA7100E5D837 /* Sources */,
 				04FE11BB1EEFFA7100E5D837 /* Frameworks */,
 				04FE11BC1EEFFA7100E5D837 /* Resources */,
+				76D6EAC258F94543174A8686 /* [CP] Embed Pods Frameworks */,
+				95D109D157EAE9B36B0F3438 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FE11E31EEFFA7200E5D837 /* Build configuration list for PBXNativeTarget "MediStockTests" */;
 			buildPhases = (
+				8785D51BC5F71CEC685854B6 /* [CP] Check Pods Manifest.lock */,
 				04FE11D31EEFFA7100E5D837 /* Sources */,
 				04FE11D41EEFFA7100E5D837 /* Frameworks */,
 				04FE11D51EEFFA7100E5D837 /* Resources */,
+				8F9EBDE7DC2A32C7BBA519D9 /* [CP] Embed Pods Frameworks */,
+				6E1048420F78DA513201D037 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FE11D11EEFFA7100E5D837 /* LaunchScreen.storyboard in Resources */,
+				04FE11E71EEFFA9B00E5D837 /* LaunchScreen.xib in Resources */,
 				04FE11CE1EEFFA7100E5D837 /* Assets.xcassets in Resources */,
-				04FE11CC1EEFFA7100E5D837 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +345,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E1048420F78DA513201D037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediStockTests/Pods-MediStockTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76D6EAC258F94543174A8686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediStock/Pods-MediStock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8785D51BC5F71CEC685854B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9EBDE7DC2A32C7BBA519D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediStockTests/Pods-MediStockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95D109D157EAE9B36B0F3438 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediStock/Pods-MediStock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2BD6A6C0B34E5E8C0E8081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04FE11BA1EEFFA7100E5D837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FE11F21EF1C47E00E5D837 /* UIView+Frame.m in Sources */,
 				04FE11C91EEFFA7100E5D837 /* ViewController.m in Sources */,
+				04FE11ED1EF17D3900E5D837 /* DataManager.m in Sources */,
 				04FE11C61EEFFA7100E5D837 /* AppDelegate.m in Sources */,
 				04FE11C31EEFFA7100E5D837 /* main.m in Sources */,
+				04FE11F81EF1CF2800E5D837 /* NSObject+DataManager.m in Sources */,
+				04FE11FB1EF2660E00E5D837 /* AddClinicViewController.m in Sources */,
+				04FE11EA1EF008EF00E5D837 /* DatabaseObjects.m in Sources */,
+				04FE12051EF2730B00E5D837 /* ClinicViewController.m in Sources */,
+				04FE12011EF26B3B00E5D837 /* UIViewController+ViewSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +473,6 @@
 			targetProxy = 04FE11D81EEFFA7100E5D837 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04FE11CA1EEFFA7100E5D837 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04FE11CB1EEFFA7100E5D837 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04FE11CF1EEFFA7100E5D837 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04FE11D01EEFFA7100E5D837 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04FE11DE1EEFFA7100E5D837 /* Debug */ = {
@@ -349,10 +565,14 @@
 		};
 		04FE11E11EEFFA7100E5D837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDAB22C7E226BAC27678E372 /* Pods-MediStock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediStock/MediStockPrefixHeader.pch;
 				INFOPLIST_FILE = MediStock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foo.MediStock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,10 +581,14 @@
 		};
 		04FE11E21EEFFA7100E5D837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D78B3FBACFA4B9E43945EDD /* Pods-MediStock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MediStock/MediStockPrefixHeader.pch;
 				INFOPLIST_FILE = MediStock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foo.MediStock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,9 +597,12 @@
 		};
 		04FE11E41EEFFA7200E5D837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87B06CDD6751D6E1E512517 /* Pods-MediStockTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MediStockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foo.MediStockTests;
@@ -386,9 +613,12 @@
 		};
 		04FE11E51EEFFA7200E5D837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E107930D6D9D3847B254AF /* Pods-MediStockTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = MediStockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.foo.MediStockTests;
@@ -416,6 +646,7 @@
 				04FE11E21EEFFA7100E5D837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FE11E31EEFFA7200E5D837 /* Build configuration list for PBXNativeTarget "MediStockTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +655,7 @@
 				04FE11E51EEFFA7200E5D837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
